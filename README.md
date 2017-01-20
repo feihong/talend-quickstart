@@ -8,12 +8,12 @@
 1. In your bash file, add some code that looks like this:
 
    ```
-   export TALEND_DIR="$HOME/Applications/TOS_DI-20161026_1219-V6.3.0"
-   alias talend="cd $TALEND_DIR/TOS_DI-macosx-cocoa.app/Contents/MacOS; ./TOS_DI-macosx-cocoa"
+   export TALEND_DIR="$HOME/Applications/TOS_DI-20161026_1219-V6.3.0/TOS_DI-macosx-cocoa.app/Contents/MacOS"
+   alias talend="cd $TALEND_DIR; ./TOS_DI-macosx-cocoa"
    ```
 1. Source your bash file.
 1. Start Talend Open Studio by running `talend` at the command line.
-1. Create a new project, then proceed to download the required packages. 
+1. Create a new project, then proceed to download the required packages.
 
 ## Running
 
@@ -25,4 +25,5 @@ Download the [User Guide](https://info.talend.com/rs/talend/images/UG_EN_DI_TOSD
 
 ## Sources
 
-[Mac Install : unable to locate its companion shared library](https://talendforge.org/forum/viewtopic.php?id=14844)
+- [Mac Install : unable to locate its companion shared library](https://talendforge.org/forum/viewtopic.php?id=14844)
+- [My First Talend Job](https://www.talendbyexample.com/my-first-talend-job.html)
